@@ -1,0 +1,48 @@
+body,
+html {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+#fundo {
+    background-image: url(../images/rib.jpg);
+    background-repeat: round;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.menu {
+    background-color: black;
+    top: 0;
+    z-index: 1;
+    border-bottom: 2px solid black;
+}
+
+p {
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+.titulo {
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    font-size: 80px;
+    text-align: center;
+}
+
+#imagem {
+    text-align: center;
+}
+
+#owner {
+    text-align: center;
+}
+
+hr {
+    background-color: white;
+}
